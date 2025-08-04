@@ -1,4 +1,4 @@
-const http = require('http');
+const http = require('http'); // This server config running on localhost ( in your PC local directory) http://localhost:3000
 
 const fs = require('fs');
 
