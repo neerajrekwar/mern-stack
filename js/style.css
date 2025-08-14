@@ -1,0 +1,11 @@
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+h1{
+    color: #be2626;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
