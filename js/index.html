@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Node.js Server</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Carousel</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my index.html served by Node.js</p>
+
+  <section class="hero-carousel">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('https://picsum.photos/id/1018/1600/900');">
+        <div class="content">
+          <h1>Welcome to Our Website</h1>
+          <p>We create amazing experiences for your business.</p>
+          <a href="#services" class="btn">Learn More</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://picsum.photos/id/1024/1600/900');">
+        <div class="content">
+          <h1>Beautiful Designs</h1>
+          <p>Clean, modern, and responsive UI for all devices.</p>
+          <a href="#portfolio" class="btn">See Work</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://picsum.photos/id/1015/1600/900');">
+        <div class="content">
+          <h1>Grow Your Business</h1>
+          <p>Marketing solutions that deliver real results.</p>
+          <a href="#contact" class="btn">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots"></div>
+  </section>
+
+<script src="script.js"></script>
 </body>
 </html>
